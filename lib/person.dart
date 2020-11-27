@@ -9,7 +9,7 @@ abstract class Person {
 
 class Imposter implements Person {
   @override
-  get _name => '';
+  String get _name => '';
 
   @override
   String getResponsibilities() => 'No Responsibilities';
