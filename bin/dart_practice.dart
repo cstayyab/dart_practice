@@ -32,4 +32,6 @@ void main(List<String> arguments) {
   red.getResponsibilities();
 
   print('1+1+2*5'.exprEval());
+
+  print('Dimension of Point p1(${p1.x}, ${p1.y}) is ${p1.dimension}');
 }

@@ -1,5 +1,7 @@
 import 'dart:math';
 
+enum Dimensions { TwoD, ThreeD }
+
 class Point {
   num x;
   num y;
@@ -19,4 +21,6 @@ class Point {
 
   Point operator +(Point p) => Point(x + p.x, y + p.y);
   Point operator -(Point p) => Point(x - p.x, y - p.y);
+
+  Dimensions get dimension => Dimensions.TwoD;
 }
