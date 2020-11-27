@@ -40,4 +40,10 @@ void main(List<String> arguments) {
   pianist.playSomething();
 
   print('Total Persons: ${Person.totalPersons}');
+
+  var people = <Person>[]; // Can also be written as var people = List<Person>()
+  people.addAll([MailMan('I'), Pianist('Me')]);
+  people.add(pianist);
+
+  var band = MusicalBand();
 }

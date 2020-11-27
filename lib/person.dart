@@ -70,3 +70,5 @@ class Pianist extends Musician with MusicalPerformer {
     print('Playing “The Promise” by Michael Nyman');
   }
 }
+
+class MusicalBand<T extends Musician> {}

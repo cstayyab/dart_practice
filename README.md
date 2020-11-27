@@ -20,5 +20,6 @@ This repository was created to go through all the major features mentioned in Of
     * Class (Static) Members
 * Extension Methods
 * Enumerated Types
+* Using and Implementing Generics
 
 *I will keep adding more as soon as I practice them*
