@@ -1,7 +1,10 @@
 abstract class Person {
   final _name;
+  static int totalPersons = 0;
 
-  Person(this._name);
+  Person(this._name) {
+    totalPersons += 1;
+  }
 
   String greet(String who) => 'Hello, $who! I am $_name';
   String getResponsibilities();

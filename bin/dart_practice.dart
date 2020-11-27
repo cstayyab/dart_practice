@@ -38,4 +38,6 @@ void main(List<String> arguments) {
   var pianist = Pianist('Michael Nyman');
   pianist.entertainMe();
   pianist.playSomething();
+
+  print('Total Persons: ${Person.totalPersons}');
 }
