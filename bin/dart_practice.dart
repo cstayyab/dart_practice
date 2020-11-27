@@ -2,6 +2,7 @@ import 'package:dart_practice/dart_practice.dart' as dart_practice;
 import 'package:dart_practice/point.dart';
 import 'package:dart_practice/circle.dart' show Circle;
 import 'package:dart_practice/person.dart';
+import 'package:dart_practice/stringeval.dart';
 
 void main(List<String> arguments) {
   print('Hello world: ${dart_practice.calculate()}!');
@@ -29,4 +30,6 @@ void main(List<String> arguments) {
   print(Imposter().greet('Ahmed'));
   var red = Imposter();
   red.getResponsibilities();
+
+  print('1+1+2*5'.exprEval());
 }

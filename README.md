@@ -16,5 +16,6 @@ This repository was created to go through all the major features mentioned in Of
     * Getter and Setter Methods
     * Abstract Classes and Implicit Interfaces
     * Handling NoSuchMethod Error
+* Extension Methods
 
 *I will keep adding more as soon as I practice them*
