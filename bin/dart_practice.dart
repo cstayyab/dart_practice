@@ -27,4 +27,6 @@ void main(List<String> arguments) {
 
   print(MailMan('Adil').greet('Ali'));
   print(Imposter().greet('Ahmed'));
+  var red = Imposter();
+  red.getResponsibilities();
 }

@@ -15,5 +15,6 @@ This repository was created to go through all the major features mentioned in Of
     * Operator Declaration Methods
     * Getter and Setter Methods
     * Abstract Classes and Implicit Interfaces
+    * Handling NoSuchMethod Error
 
 *I will keep adding more as soon as I practice them*

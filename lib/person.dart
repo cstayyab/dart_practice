@@ -11,11 +11,15 @@ class Imposter implements Person {
   @override
   String get _name => '';
 
-  @override
-  String getResponsibilities() => 'No Responsibilities';
+  // @override
+  // String getResponsibilities() => 'No Responsibilities';
 
   @override
   String greet(String who) => 'Hi, $who. Do you know who I am?';
+
+  @override
+  void noSuchMethod(Invocation invocation) =>
+      print('No method named ${invocation.memberName}.');
 }
 
 class MailMan extends Person {
