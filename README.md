@@ -1,5 +1,15 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# Dart - Hands-on Language Tour
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+This repository was created to go through all the major features mentioned in Official Language Tour of Dart here on https://dart.dev/guides/language/language-tour
+
+## List of Features covered:
+
+* Console Printing
+* Variables & Common Data Types
+* Classes
+    * Constuctors
+        * Default Constructors
+        * Named Constructors
+    * Class Methods
+
+*I will keep adding more as soon as I practice them*
