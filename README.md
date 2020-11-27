@@ -13,5 +13,6 @@ This repository was created to go through all the major features mentioned in Of
         * Named Constructors
     * Class Methods
     * Operator Declaration Methods
+    * Getter and Setter Methods
 
 *I will keep adding more as soon as I practice them*
