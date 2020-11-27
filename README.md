@@ -5,11 +5,13 @@ This repository was created to go through all the major features mentioned in Of
 ## List of Features covered:
 
 * Console Printing
+* Arithmetic Operations 
 * Variables & Common Data Types
 * Classes
     * Constuctors
         * Default Constructors
         * Named Constructors
     * Class Methods
+    * Operator Declaration Methods
 
 *I will keep adding more as soon as I practice them*

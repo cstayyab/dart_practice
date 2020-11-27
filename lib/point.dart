@@ -16,4 +16,7 @@ class Point {
     var dy = y - otherPoint.y;
     return sqrt(dx * dx + dy * dy);
   }
+
+  Point operator +(Point p) => Point(x + p.x, y + p.y);
+  Point operator -(Point p) => Point(x - p.x, y - p.y);
 }

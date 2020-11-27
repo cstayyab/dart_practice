@@ -9,4 +9,10 @@ void main(List<String> arguments) {
   var p2 = Point(5, 10);
   print(
       'Distance between p1(${p1.x}, ${p1.y}) and p2(${p2.x}, ${p2.y}) is ${p1.distanceTo(p2)}');
+  var sump1p2 = p1 + p2;
+  var subp1p2 = p1 - p2;
+  print(
+      'Sum of p1(${p1.x}, ${p1.y}) and p2(${p2.x}, ${p2.y}) is (${sump1p2.x}, ${sump1p2.y})');
+  print(
+      'Difference of p1(${p1.x}, ${p1.y}) and p2(${p2.x}, ${p2.y}) is (${subp1p2.x}, ${subp1p2.y})');
 }
