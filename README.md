@@ -16,6 +16,7 @@ This repository was created to go through all the major features mentioned in Of
     * Getter and Setter Methods
     * Abstract Classes and Implicit Interfaces
     * Handling NoSuchMethod Error
+    * Adding Features to class Using Mixins
 * Extension Methods
 * Enumerated Types
 

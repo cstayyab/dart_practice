@@ -34,4 +34,8 @@ void main(List<String> arguments) {
   print('1+1+2*5'.exprEval());
 
   print('Dimension of Point p1(${p1.x}, ${p1.y}) is ${p1.dimension}');
+
+  var pianist = Pianist('Michael Nyman');
+  pianist.entertainMe();
+  pianist.playSomething();
 }
