@@ -14,5 +14,6 @@ This repository was created to go through all the major features mentioned in Of
     * Class Methods
     * Operator Declaration Methods
     * Getter and Setter Methods
+    * Abstract Classes and Implicit Interfaces
 
 *I will keep adding more as soon as I practice them*

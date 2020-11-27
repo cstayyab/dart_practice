@@ -1,6 +1,7 @@
 import 'package:dart_practice/dart_practice.dart' as dart_practice;
 import 'package:dart_practice/point.dart';
 import 'package:dart_practice/circle.dart' show Circle;
+import 'package:dart_practice/person.dart';
 
 void main(List<String> arguments) {
   print('Hello world: ${dart_practice.calculate()}!');
@@ -23,4 +24,7 @@ void main(List<String> arguments) {
   var c2 = Circle(r);
   c2.area = a;
   print('Radius of Circle with area ${a} is ${c2.radius}');
+
+  print(MailMan('Adil').greet('Ali'));
+  print(Imposter().greet('Ahmed'));
 }
