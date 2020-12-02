@@ -22,4 +22,8 @@ This repository was created to go through all the major features mentioned in Of
 * Enumerated Types
 * Using and Implementing Generics
 
+## Examples using Dart Packages
+
+* Using HTTP Client and Dart Future API to Consume an API
+
 *I will keep adding more as soon as I practice them*

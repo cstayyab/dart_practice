@@ -3,6 +3,7 @@ import 'package:dart_practice/point.dart';
 import 'package:dart_practice/circle.dart' show Circle;
 import 'package:dart_practice/person.dart';
 import 'package:dart_practice/stringeval.dart';
+import 'package:dart_practice/httpclient_test.dart' show getAllTodos;
 
 void main(List<String> arguments) {
   print('Hello world: ${dart_practice.calculate()}!');
@@ -45,5 +46,13 @@ void main(List<String> arguments) {
   people.addAll([MailMan('I'), Pianist('Me')]);
   people.add(pianist);
 
+  // ignore: unused_local_variable
   var band = MusicalBand();
+
+  getAllTodos().then((todos) => {
+        todos.forEach((element) => {
+              print(
+                  "${element['id']} ${element['title']} by User${element['userId']} ${(element['completed']) ? '[DONE]' : '[In Progress]'}")
+            })
+      });
 }
